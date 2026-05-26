@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deprem Çantam Gizlilik Politikası</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --background: #f6f8f5;
+        --surface: #ffffff;
+        --text: #1f2a28;
+        --muted: #697a76;
+        --primary: #2c6e63;
+        --border: #dde7e4;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.65;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px;
+      }
+
+      article {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 32px;
+      }
+
+      h1 {
+        color: var(--primary);
+        font-size: 34px;
+        line-height: 1.2;
+        margin: 0 0 8px;
+      }
+
+      h2 {
+        font-size: 21px;
+        margin: 30px 0 8px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      a {
+        color: var(--primary);
+        font-weight: 700;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Deprem Çantam Gizlilik Politikası</h1>
+        <p class="muted">Son güncelleme: 26 Mayıs 2026</p>
+
+        <p>
+          Deprem Çantam, ailelerin kişisel afet hazırlığını takip etmesine yardımcı olan çevrimdışı öncelikli
+          bir mobil uygulamadır. Bu politika, uygulamada hangi bilgilerin işlendiğini ve bu bilgilerin nasıl
+          korunduğunu açıklar.
+        </p>
+
+        <h2>Toplanan ve saklanan bilgiler</h2>
+        <p>
+          Deprem Çantam bir kullanıcı hesabı oluşturmaz ve verilerinizi bir sunucuya göndermez. Uygulamaya
+          girdiğiniz bilgiler cihazınızda yerel olarak saklanır. Bu bilgiler şunları içerebilir:
+        </p>
+        <ul>
+          <li>Aile profili ve kişi sayısı</li>
+          <li>Bebek, çocuk, yaşlı birey, engelli birey, düzenli ilaç kullanımı ve evcil hayvan gibi özel ihtiyaç bilgileri</li>
+          <li>Acil çanta malzemeleri, durumları, notları ve son kullanma tarihleri</li>
+          <li>Acil kişi adları, telefon numaraları, yakınlık bilgisi ve notlar</li>
+          <li>Ana ve alternatif buluşma noktası bilgileri</li>
+          <li>PDF aile planı ve QR acil bilgi kartı için kullanıcının seçtiği alanlar</li>
+        </ul>
+
+        <h2>Veriler nerede saklanır?</h2>
+        <p>
+          Veriler cihazınızda AsyncStorage kullanılarak yerel olarak saklanır. Deprem Çantam MVP sürümünde
+          backend, bulut senkronizasyonu, Firebase, kullanıcı hesabı veya reklam takip sistemi kullanmaz.
+        </p>
+
+        <h2>İzinler</h2>
+        <p>
+          Uygulama, aylık çanta kontrolü ve son kullanma tarihi hatırlatmaları için bildirim izni isteyebilir.
+          Bildirim izni verilmezse uygulamanın ana takip özellikleri çalışmaya devam eder.
+        </p>
+        <p>
+          Acil kişi ekranında kullanıcı bir arama butonuna bastığında cihazın telefon uygulaması açılabilir.
+          Bu işlem yalnızca kullanıcının başlattığı arama bağlantısı için kullanılır.
+        </p>
+
+        <h2>PDF ve QR kod</h2>
+        <p>
+          PDF aile planı ve QR acil bilgi kartı cihazda yerel olarak oluşturulur. Bu içerikler otomatik olarak
+          hiçbir sunucuya yüklenmez. Paylaşma veya kaydetme işlemi kullanıcının açık eylemiyle gerçekleşir.
+        </p>
+        <p>
+          QR acil bilgi kartında hassas alanlar varsayılan olarak kapalıdır. Acil kişi adları, telefon numaraları,
+          buluşma noktası veya tıbbi not gibi bilgiler yalnızca kullanıcı özellikle seçerse QR içeriğine eklenir.
+        </p>
+
+        <h2>Üçüncü taraflarla paylaşım</h2>
+        <p>
+          Deprem Çantam, uygulamaya girilen kişisel bilgileri üçüncü taraflarla paylaşmaz. Uygulamada backend,
+          analitik takip, reklam ağı veya bulut veri aktarımı bulunmaz.
+        </p>
+
+        <h2>Verileri silme</h2>
+        <p>
+          Kullanıcı, uygulama içindeki ayarlar ekranından yerel verileri sıfırlayabilir. Uygulamanın cihazdan
+          kaldırılması da yerel uygulama verilerinin silinmesine yardımcı olur.
+        </p>
+
+        <h2>Güvenlik notu</h2>
+        <p>
+          Veriler cihazda saklandığı için cihaz güvenliği kullanıcının kontrolündedir. Telefon kilidi, işletim
+          sistemi güncellemeleri ve yedekleme ayarları kullanıcı tarafından yönetilmelidir. Çok hassas tıbbi
+          veya kimlik bilgilerinin QR kod ya da not alanlarına gereğinden fazla yazılmamasını öneririz.
+        </p>
+
+        <h2>Çocuklara ilişkin not</h2>
+        <p>
+          Uygulama çocuklara yönelik ayrı bir hesap veya çevrimiçi hizmet sunmaz. Aile profiline çocuk bilgisi
+          girilirse bu bilgi yalnızca cihazda yerel olarak saklanır.
+        </p>
+
+        <h2>Yasal ve güvenlik açıklaması</h2>
+        <p>
+          Bu uygulama deprem tahmini yapmaz, bina güvenliği onayı vermez ve resmi kurumların yerine geçmez.
+          Kişisel afet hazırlığı için yardımcı bir takip aracıdır. Acil durumlarda resmi kurumların açıklama
+          ve yönlendirmeleri esas alınmalıdır.
+        </p>
+
+        <h2>İletişim</h2>
+        <p>
+          Gizlilikle ilgili sorularınız için
+          <a href="mailto:preclaudebgc@gmail.com">preclaudebgc@gmail.com</a>
+          adresinden iletişime geçebilirsiniz.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
