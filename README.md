@@ -10,11 +10,11 @@ Bu klasördeki HTML dosyaları Google Play ve App Store için yayınlanabilir st
 
 ## Yayın URL önerisi
 
-Bir alan adı veya statik hosting seçildikten sonra mağaza alanlarına şu URL'ler girilebilir:
+Mağaza alanlarına şu URL'ler girilebilir:
 
-- Support URL: `https://alan-adin.com/deprem-cantam/`
-- Privacy Policy URL: `https://alan-adin.com/deprem-cantam/privacy-policy.html`
-- Terms URL: `https://alan-adin.com/deprem-cantam/terms-of-use.html`
+- Support URL: `https://bogacc-max.github.io/deprem-cantam-legal/`
+- Privacy Policy URL: `https://bogacc-max.github.io/deprem-cantam-legal/privacy-policy.html`
+- Terms URL: `https://bogacc-max.github.io/deprem-cantam-legal/terms-of-use.html`
 
 Google Play için gizlilik politikası URL'si gerekir. App Store için gizlilik politikası ve destek URL'si girilmelidir.
 
